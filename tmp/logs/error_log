@@ -1,0 +1,616 @@
+[30-Dec-2015 14:24:54 Asia/Saigon] PHP Notice:  Undefined variable: article_id in /home/danaweb1/domains/v2.danaweb.vn/public_html/olala-admin/modules/article_edit.php on line 4
+[08-Jan-2016 03:47:26 Europe/Berlin] PHP Fatal error:  Uncaught exception 'DatabaseConnException' with message 'Database Connection Exception: An error Unknown column 'icon' in 'field list' occurred when executing INSERT INTO olala3w_car_menu(`category_id`,`name`,`slug`,`title`,`description`,`keywords`,`parent`,`sort`,`comment`,`icon`,`is_active`,`hot`,`created_time`,`modified_time`,`user_id`) VALUES ('67','Xe khách, taxi, tàu, vận tải','xe-khach-taxi-tau-van-tai','','','','0','1','','','1','0','1452221246','1452221246','1').' in E:\Xampp\htdocs\dnw_thuexemientrung\includes\class\DatabaseConnect.class.php:56
+Stack trace:
+#0 E:\Xampp\htdocs\dnw_thuexemientrung\includes\class\ActiveRecord.class.php(48): DatabaseConnect->query('INSERT INTO ola...')
+#1 E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\car_menu_add.php(96): ActiveRecord->insert(Array)
+#2 E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\index.php(48): include('E:\\Xampp\\htdocs...')
+#3 {main}
+  thrown in E:\Xampp\htdocs\dnw_thuexemientrung\includes\class\DatabaseConnect.class.php on line 56
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:01:22 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:01:42 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:15:08 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:15:49 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:16:02 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:20:14 Asia/Bangkok] PHP Notice:  Use of undefined constant DATETIMEFORMAT - assumed 'DATETIMEFORMAT' in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 94
+[18-Feb-2016 16:21:18 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:21:18 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:21:18 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:21:18 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:21:18 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:21:18 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:21:18 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:21:18 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:21:18 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:21:18 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:21:18 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:21:18 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:21:18 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:21:18 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 83
+[18-Feb-2016 16:21:18 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 84
+[18-Feb-2016 16:21:50 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 80
+[18-Feb-2016 16:21:50 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 81
+[18-Feb-2016 16:21:50 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:21:50 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 80
+[18-Feb-2016 16:21:50 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 81
+[18-Feb-2016 16:21:50 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:21:50 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 80
+[18-Feb-2016 16:21:50 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 81
+[18-Feb-2016 16:21:50 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:21:50 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 80
+[18-Feb-2016 16:21:50 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 81
+[18-Feb-2016 16:21:50 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 16:21:50 Asia/Bangkok] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 80
+[18-Feb-2016 16:21:50 Asia/Bangkok] PHP Notice:  Undefined index: keys in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 81
+[18-Feb-2016 16:21:50 Asia/Bangkok] PHP Notice:  Undefined index: full_name in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\order_list.php on line 82
+[18-Feb-2016 10:29:12 Europe/Berlin] PHP Fatal error:  Uncaught exception 'DatabaseConnException' with message 'Database Connection Exception: An error Unknown column 'modified_time' in 'field list' occurred when executing UPDATE olala3w_order SET `is_active` = '0',`modified_time` = '1455787752' WHERE order_id = 5.' in E:\Xampp\htdocs\dnw_thuexemientrung\includes\class\DatabaseConnect.class.php:56
+Stack trace:
+#0 E:\Xampp\htdocs\dnw_thuexemientrung\includes\class\ActiveRecord.class.php(73): DatabaseConnect->query('UPDATE olala3w_...')
+#1 E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\action\edit_status.php(16): ActiveRecord->update(Array)
+#2 E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\action.php(26): include('E:\\Xampp\\htdocs...')
+#3 {main}
+  thrown in E:\Xampp\htdocs\dnw_thuexemientrung\includes\class\DatabaseConnect.class.php on line 56
+[18-Feb-2016 10:30:12 Europe/Berlin] PHP Fatal error:  Uncaught exception 'DatabaseConnException' with message 'Database Connection Exception: An error Unknown column 'modified_time' in 'field list' occurred when executing UPDATE olala3w_order SET `is_active` = '0',`modified_time` = '1455787812' WHERE order_id = 3.' in E:\Xampp\htdocs\dnw_thuexemientrung\includes\class\DatabaseConnect.class.php:56
+Stack trace:
+#0 E:\Xampp\htdocs\dnw_thuexemientrung\includes\class\ActiveRecord.class.php(73): DatabaseConnect->query('UPDATE olala3w_...')
+#1 E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\action\edit_status.php(16): ActiveRecord->update(Array)
+#2 E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\action.php(26): include('E:\\Xampp\\htdocs...')
+#3 {main}
+  thrown in E:\Xampp\htdocs\dnw_thuexemientrung\includes\class\DatabaseConnect.class.php on line 56
+[18-Feb-2016 10:34:40 Europe/Berlin] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\action\open_order.php on line 19
+[18-Feb-2016 10:34:48 Europe/Berlin] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\action\open_order.php on line 19
+[18-Feb-2016 10:35:00 Europe/Berlin] PHP Notice:  Undefined index: type in E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\action\open_order.php on line 19
+[18-Feb-2016 17:27:56 Asia/Bangkok] PHP Fatal error:  Uncaught exception 'DatabaseConnException' with message 'Database Connection Exception: An error Unknown column 'sort' in 'order clause' occurred when executing SELECT * FROM olala3w_contact ORDER BY sort ASC.' in E:\Xampp\htdocs\dnw_thuexemientrung\includes\class\DatabaseConnect.class.php:56
+Stack trace:
+#0 E:\Xampp\htdocs\dnw_thuexemientrung\includes\class\ActiveRecord.class.php(18): DatabaseConnect->query('SELECT * FROM o...')
+#1 E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\modules\contact_list.php(57): ActiveRecord->select()
+#2 E:\Xampp\htdocs\dnw_thuexemientrung\olala-admin\index.php(48): include('E:\\Xampp\\htdocs...')
+#3 {main}
+  thrown in E:\Xampp\htdocs\dnw_thuexemientrung\includes\class\DatabaseConnect.class.php on line 56
+[19-Jul-2016 15:42:30 Asia/Saigon] PHP Parse error:  syntax error, unexpected T_STRING in /home/trituexanh/domains/trituexanh.danaweb.vn/public_html/modules/action/send_register.php on line 23
+[23-Oct-2017 18:31:18 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:31:18 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:31:18 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:31:18 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:31:18 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:31:18 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:31:40 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:31:40 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:31:40 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:31:40 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:31:40 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:31:40 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:32:01 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:32:01 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:32:01 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:32:01 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:32:01 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:32:01 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:32:02 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:32:02 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:32:02 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:32:02 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:32:02 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:32:02 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:32:35 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:32:35 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:32:35 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:32:35 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:32:35 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:32:35 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:32:37 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:32:37 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:32:37 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:32:37 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:32:37 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:32:37 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:33:13 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:33:13 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:33:13 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:33:13 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:33:13 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:33:13 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:33:14 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:33:14 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:33:14 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:33:14 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:33:14 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:33:14 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:34:16 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:34:16 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:34:16 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:34:16 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:34:16 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:34:16 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:34:16 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:34:16 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:34:16 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:34:16 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:34:16 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:34:16 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:34:22 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:34:22 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:34:22 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:34:22 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:34:22 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:34:22 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:34:22 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:34:22 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:34:22 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:34:22 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:34:22 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:34:22 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:34:50 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:34:50 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:34:50 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:34:50 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:34:50 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:34:50 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:34:51 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:34:51 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:34:51 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:34:51 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:34:51 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:34:51 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:34:53 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:34:53 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:34:53 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:34:53 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:34:53 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:34:53 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:34:53 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:34:53 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:34:53 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:34:53 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:34:53 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:34:53 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:34:59 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:34:59 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:34:59 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:34:59 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:34:59 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:34:59 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:04 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:40:04 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:40:04 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:04 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:04 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:04 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:05 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:40:05 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:40:05 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:05 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:05 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:05 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:23 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:40:23 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:40:23 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:23 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:23 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:23 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:23 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:40:23 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:40:23 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:23 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:23 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:23 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:23 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:40:23 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:40:23 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:23 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:23 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:23 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:24 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:40:24 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:40:24 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:24 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:24 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:40:24 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:40:24 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:24 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:24 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:24 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:24 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:40:24 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:40:24 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:24 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:24 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:24 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:26 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:40:26 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:40:26 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:26 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:26 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:26 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:26 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:40:26 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:40:26 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:26 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:26 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:26 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:26 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:40:26 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:40:26 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:26 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:40:26 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:40:26 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:42:38 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:42:38 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:42:38 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:42:38 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:42:38 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:42:38 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:47:44 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:47:44 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:47:44 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:47:44 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:47:44 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:47:44 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:52:04 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:52:04 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:52:04 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:52:04 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:52:04 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:52:04 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:53:56 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:53:56 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:53:56 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:53:56 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:53:56 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:53:56 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:53:58 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:53:58 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:53:58 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:53:58 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:53:58 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:53:58 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:53:58 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:53:58 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:53:58 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:53:58 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:53:58 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:53:58 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:53:58 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:53:58 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:53:58 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:53:58 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:53:58 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:53:58 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:58:04 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:58:04 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:58:04 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:58:04 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:58:04 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:58:04 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:58:05 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 18:58:05 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 18:58:05 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:58:05 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 18:58:05 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 18:58:05 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:06:35 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 19:06:35 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 19:06:35 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:06:35 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:06:35 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:06:35 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:07:26 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 19:07:26 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 19:07:26 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:07:26 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:07:26 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:07:26 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:08:19 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 19:08:19 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 19:08:19 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:08:19 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:08:19 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:08:19 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:10:22 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 19:10:22 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 19:10:22 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:10:22 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:10:22 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:10:22 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:10:30 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 19:10:30 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 19:10:30 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:10:30 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:10:30 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:10:30 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:10:48 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 19:10:48 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 19:10:48 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:10:48 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:10:48 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:10:48 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:10:49 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 19:10:49 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 19:10:49 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:10:49 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:10:49 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:10:49 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:11:40 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 19:11:40 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 19:11:40 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:11:40 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:11:40 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:11:40 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:13:24 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 19:13:24 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 19:13:24 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:13:24 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:13:24 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:13:24 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:13:39 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 19:13:39 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 19:13:39 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:13:39 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:13:39 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:13:39 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:15:42 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 19:15:42 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 19:15:42 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:15:42 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:15:42 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:15:42 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:15:46 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 41
+[23-Oct-2017 19:15:46 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 43
+[23-Oct-2017 19:15:46 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:15:46 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[23-Oct-2017 19:15:46 Europe/Berlin] PHP Notice:  Undefined variable: tentl in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 69
+[23-Oct-2017 19:15:46 Europe/Berlin] PHP Notice:  Undefined variable: chelung in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 71
+[24-Oct-2017 09:07:43 Asia/Bangkok] PHP Warning:  include(D:\xampp\htdocs\project\GVC\includes\_tth_sider_tin.php): failed to open stream: No such file or directory in D:\xampp\htdocs\project\GVC\modules\home.php on line 130
+[24-Oct-2017 09:07:43 Asia/Bangkok] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\project\GVC\includes\_tth_sider_tin.php' for inclusion (include_path='.;D:\xampp\php\PEAR') in D:\xampp\htdocs\project\GVC\modules\home.php on line 130
+[24-Oct-2017 09:07:49 Asia/Bangkok] PHP Warning:  include(D:\xampp\htdocs\project\GVC\includes\_tth_sider_tin.php): failed to open stream: No such file or directory in D:\xampp\htdocs\project\GVC\modules\home.php on line 130
+[24-Oct-2017 09:07:49 Asia/Bangkok] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\project\GVC\includes\_tth_sider_tin.php' for inclusion (include_path='.;D:\xampp\php\PEAR') in D:\xampp\htdocs\project\GVC\modules\home.php on line 130
+[24-Oct-2017 15:13:23 Asia/Bangkok] PHP Warning:  include(D:\xampp\htdocs\project\GVC\includes\tth_slide_team.php): failed to open stream: No such file or directory in D:\xampp\htdocs\project\GVC\modules\home.php on line 154
+[24-Oct-2017 15:13:24 Asia/Bangkok] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\project\GVC\includes\tth_slide_team.php' for inclusion (include_path='.;D:\xampp\php\PEAR') in D:\xampp\htdocs\project\GVC\modules\home.php on line 154
+[24-Oct-2017 20:46:41 Asia/Bangkok] PHP Notice:  Use of undefined constant URL_HOME - assumed 'URL_HOME' in D:\xampp\htdocs\project\GVC\includes\tth_slider_team.php on line 16
+[24-Oct-2017 20:46:41 Asia/Bangkok] PHP Notice:  Use of undefined constant URL_HOME - assumed 'URL_HOME' in D:\xampp\htdocs\project\GVC\includes\tth_slider_team.php on line 17
+[24-Oct-2017 20:47:36 Asia/Bangkok] PHP Notice:  Use of undefined constant URL_HOME - assumed 'URL_HOME' in D:\xampp\htdocs\project\GVC\includes\tth_slider_team.php on line 16
+[24-Oct-2017 20:47:36 Asia/Bangkok] PHP Notice:  Use of undefined constant URL_HOME - assumed 'URL_HOME' in D:\xampp\htdocs\project\GVC\includes\tth_slider_team.php on line 17
+[24-Oct-2017 20:48:14 Asia/Bangkok] PHP Notice:  Use of undefined constant URL_HOME - assumed 'URL_HOME' in D:\xampp\htdocs\project\GVC\includes\tth_slider_team.php on line 16
+[24-Oct-2017 20:48:14 Asia/Bangkok] PHP Notice:  Use of undefined constant URL_HOME - assumed 'URL_HOME' in D:\xampp\htdocs\project\GVC\includes\tth_slider_team.php on line 17
+[24-Oct-2017 20:48:17 Asia/Bangkok] PHP Notice:  Use of undefined constant URL_HOME - assumed 'URL_HOME' in D:\xampp\htdocs\project\GVC\includes\tth_slider_team.php on line 16
+[24-Oct-2017 20:48:17 Asia/Bangkok] PHP Notice:  Use of undefined constant URL_HOME - assumed 'URL_HOME' in D:\xampp\htdocs\project\GVC\includes\tth_slider_team.php on line 17
+[24-Oct-2017 22:20:02 Asia/Bangkok] PHP Warning:  include(D:\xampp\htdocs\project\GVC\includes\tth_slider_tinbot.php): failed to open stream: No such file or directory in D:\xampp\htdocs\project\GVC\modules\home.php on line 192
+[24-Oct-2017 22:20:02 Asia/Bangkok] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\project\GVC\includes\tth_slider_tinbot.php' for inclusion (include_path='.;D:\xampp\php\PEAR') in D:\xampp\htdocs\project\GVC\modules\home.php on line 192
+[25-Oct-2017 18:51:57 Europe/Berlin] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\project\GVC\includes\_tth_head.php on line 2
+[26-Oct-2017 16:08:14 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\xampp\htdocs\project\GVC\modules\home.php on line 247
+[26-Oct-2017 16:08:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\xampp\htdocs\project\GVC\modules\home.php on line 247
+[26-Oct-2017 16:08:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\xampp\htdocs\project\GVC\modules\home.php on line 247
+[26-Oct-2017 16:09:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\xampp\htdocs\project\GVC\modules\home.php on line 247
+[26-Oct-2017 16:09:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\xampp\htdocs\project\GVC\modules\home.php on line 247
+[26-Oct-2017 16:10:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\xampp\htdocs\project\GVC\modules\home.php on line 247
+[26-Oct-2017 16:27:09 Europe/Berlin] PHP Notice:  Undefined variable: row1s in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 58
+[26-Oct-2017 16:27:09 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 58
+[26-Oct-2017 16:27:09 Europe/Berlin] PHP Notice:  Undefined variable: row1s in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 58
+[26-Oct-2017 16:27:09 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 58
+[26-Oct-2017 16:28:32 Europe/Berlin] PHP Notice:  Undefined variable: row1s in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 55
+[26-Oct-2017 16:28:32 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 55
+[26-Oct-2017 16:28:32 Europe/Berlin] PHP Notice:  Undefined variable: row1s in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 55
+[26-Oct-2017 16:28:32 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 55
+[26-Oct-2017 16:29:02 Europe/Berlin] PHP Notice:  Undefined variable: row1s in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 55
+[26-Oct-2017 16:29:02 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 55
+[26-Oct-2017 16:29:02 Europe/Berlin] PHP Notice:  Undefined variable: row1s in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 55
+[26-Oct-2017 16:29:02 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 55
+[26-Oct-2017 16:29:03 Europe/Berlin] PHP Notice:  Undefined variable: row1s in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 55
+[26-Oct-2017 16:29:03 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 55
+[26-Oct-2017 16:29:03 Europe/Berlin] PHP Notice:  Undefined variable: row1s in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 55
+[26-Oct-2017 16:29:03 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 55
+[26-Oct-2017 16:29:44 Europe/Berlin] PHP Notice:  Undefined variable: row1s in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 55
+[26-Oct-2017 16:29:44 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 55
+[26-Oct-2017 16:29:45 Europe/Berlin] PHP Notice:  Undefined variable: row1s in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 55
+[26-Oct-2017 16:29:45 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\project\GVC\includes\tth_slider.php on line 55
+[26-Oct-2017 17:00:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in D:\xampp\htdocs\project\GVC\modules\home.php on line 251
+[26-Oct-2017 17:00:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in D:\xampp\htdocs\project\GVC\modules\home.php on line 251
+[26-Oct-2017 17:01:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in D:\xampp\htdocs\project\GVC\modules\home.php on line 251
+[26-Oct-2017 23:48:22 Asia/Bangkok] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in D:\xampp\htdocs\project\GVC\includes\tth_slider_tin_bot.php on line 18
+[27-Oct-2017 03:05:26 Europe/Berlin] PHP Fatal error:  Uncaught exception 'DatabaseConnException' with message 'Database Connection Exception: An error No connection could be made because the target machine actively refused it.
+ occurred when executing Can't connect to Database.' in D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php:34
+Stack trace:
+#0 D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php(43): DatabaseConnect->connect()
+#1 D:\xampp\htdocs\project\GVC\includes\function\Function.php(82): DatabaseConnect->clearText('upload_max_size')
+#2 D:\xampp\htdocs\project\GVC\includes\_tth_constants.php(4): getConstant('upload_max_size')
+#3 D:\xampp\htdocs\project\GVC\index.php(28): include_once('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php on line 34
+[27-Oct-2017 03:05:35 Europe/Berlin] PHP Fatal error:  Uncaught exception 'DatabaseConnException' with message 'Database Connection Exception: An error No connection could be made because the target machine actively refused it.
+ occurred when executing Can't connect to Database.' in D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php:34
+Stack trace:
+#0 D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php(43): DatabaseConnect->connect()
+#1 D:\xampp\htdocs\project\GVC\includes\function\Function.php(82): DatabaseConnect->clearText('upload_max_size')
+#2 D:\xampp\htdocs\project\GVC\includes\_tth_constants.php(4): getConstant('upload_max_size')
+#3 D:\xampp\htdocs\project\GVC\index.php(28): include_once('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php on line 34
+[27-Oct-2017 13:22:54 Asia/Bangkok] PHP Fatal error:  Uncaught exception 'DatabaseConnException' with message 'Database Connection Exception: An error Unknown column 'categoru_id' in 'where clause' occurred when executing SELECT * FROM olala3w_article_menu WHERE categoru_id = '4'.' in D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php:56
+Stack trace:
+#0 D:\xampp\htdocs\project\GVC\includes\class\ActiveRecord.class.php(18): DatabaseConnect->query('SELECT * FROM o...')
+#1 D:\xampp\htdocs\project\GVC\includes\function\Function.php(60): ActiveRecord->select()
+#2 D:\xampp\htdocs\project\GVC\modules\home.php(359): getDsAr('Industries?')
+#3 D:\xampp\htdocs\project\GVC\index.php(52): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php on line 56
+[27-Oct-2017 08:35:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in D:\xampp\htdocs\project\GVC\modules\home.php on line 391
+[27-Oct-2017 08:37:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in D:\xampp\htdocs\project\GVC\modules\home.php on line 391
+[27-Oct-2017 13:38:17 Asia/Bangkok] PHP Fatal error:  Uncaught exception 'DatabaseConnException' with message 'Database Connection Exception: An error Undeclared variable: srticle_id occurred when executing SELECT * FROM olala3w_article WHERE article_menu_id = '2' LIMIT srticle_id desc.' in D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php:56
+Stack trace:
+#0 D:\xampp\htdocs\project\GVC\includes\class\ActiveRecord.class.php(18): DatabaseConnect->query('SELECT * FROM o...')
+#1 D:\xampp\htdocs\project\GVC\includes\function\Function.php(69): ActiveRecord->select()
+#2 D:\xampp\htdocs\project\GVC\modules\home.php(361): getDsAr('Industries?')
+#3 D:\xampp\htdocs\project\GVC\index.php(52): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php on line 56
+[27-Oct-2017 13:38:32 Asia/Bangkok] PHP Fatal error:  Uncaught exception 'DatabaseConnException' with message 'Database Connection Exception: An error Undeclared variable: article_id occurred when executing SELECT * FROM olala3w_article WHERE article_menu_id = '2' LIMIT article_id desc.' in D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php:56
+Stack trace:
+#0 D:\xampp\htdocs\project\GVC\includes\class\ActiveRecord.class.php(18): DatabaseConnect->query('SELECT * FROM o...')
+#1 D:\xampp\htdocs\project\GVC\includes\function\Function.php(69): ActiveRecord->select()
+#2 D:\xampp\htdocs\project\GVC\modules\home.php(361): getDsAr('Industries?')
+#3 D:\xampp\htdocs\project\GVC\index.php(52): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php on line 56
+[27-Oct-2017 13:39:34 Asia/Bangkok] PHP Notice:  Undefined offset: 0 in D:\xampp\htdocs\project\GVC\includes\function\Function.php on line 53
+[27-Oct-2017 13:39:34 Asia/Bangkok] PHP Notice:  Undefined variable: rows2 in D:\xampp\htdocs\project\GVC\includes\function\Function.php on line 72
+[27-Oct-2017 13:39:34 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\project\GVC\modules\home.php on line 353
+[27-Oct-2017 15:25:54 Asia/Bangkok] PHP Notice:  Undefined variable: rowfos in D:\xampp\htdocs\project\GVC\modules\home.php on line 37
+[27-Oct-2017 15:25:54 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\project\GVC\modules\home.php on line 37
+[27-Oct-2017 15:26:23 Asia/Bangkok] PHP Notice:  Undefined variable: rowfos in D:\xampp\htdocs\project\GVC\modules\home.php on line 37
+[27-Oct-2017 15:26:23 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\project\GVC\modules\home.php on line 37
+[27-Oct-2017 15:26:49 Asia/Bangkok] PHP Notice:  Undefined variable: rowfos in D:\xampp\htdocs\project\GVC\modules\home.php on line 37
+[27-Oct-2017 15:26:49 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\project\GVC\modules\home.php on line 37
+[27-Oct-2017 15:29:10 Asia/Bangkok] PHP Notice:  Undefined index: name in D:\xampp\htdocs\project\GVC\modules\home.php on line 42
+[27-Oct-2017 15:29:10 Asia/Bangkok] PHP Notice:  Undefined index: name in D:\xampp\htdocs\project\GVC\modules\home.php on line 42
+[27-Oct-2017 15:29:10 Asia/Bangkok] PHP Notice:  Undefined index: name in D:\xampp\htdocs\project\GVC\modules\home.php on line 42
+[27-Oct-2017 10:56:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}' in D:\xampp\htdocs\project\GVC\modules\home.php on line 110
+[27-Oct-2017 10:56:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}' in D:\xampp\htdocs\project\GVC\modules\home.php on line 110
+[27-Oct-2017 15:57:19 Asia/Bangkok] PHP Fatal error:  Uncaught exception 'DatabaseConnException' with message 'Database Connection Exception: An error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY created_time asc LIMIT 1,1' at line 1 occurred when executing SELECT * FROM olala3w_article_menu WHERE `is_active` = 1 AND `category_id` = 12) ORDER BY created_time asc LIMIT 1,1.' in D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php:56
+Stack trace:
+#0 D:\xampp\htdocs\project\GVC\includes\class\ActiveRecord.class.php(18): DatabaseConnect->query('SELECT * FROM o...')
+#1 D:\xampp\htdocs\project\GVC\includes\function\Function.php(81): ActiveRecord->select()
+#2 D:\xampp\htdocs\project\GVC\modules\home.php(100): getSoPo('1')
+#3 D:\xampp\htdocs\project\GVC\index.php(52): include('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php on line 56
+[27-Oct-2017 11:04:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}' in D:\xampp\htdocs\project\GVC\modules\home.php on line 135
+[30-Oct-2017 14:28:59 Europe/Berlin] PHP Fatal error:  Uncaught exception 'DatabaseConnException' with message 'Database Connection Exception: An error No connection could be made because the target machine actively refused it.
+ occurred when executing Can't connect to Database.' in D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php:34
+Stack trace:
+#0 D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php(43): DatabaseConnect->connect()
+#1 D:\xampp\htdocs\project\GVC\includes\function\Function.php(121): DatabaseConnect->clearText('upload_max_size')
+#2 D:\xampp\htdocs\project\GVC\includes\_tth_constants.php(4): getConstant('upload_max_size')
+#3 D:\xampp\htdocs\project\GVC\index.php(28): include_once('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php on line 34
+[02-Nov-2017 14:30:23 Europe/Berlin] PHP Fatal error:  Uncaught exception 'DatabaseConnException' with message 'Database Connection Exception: An error No connection could be made because the target machine actively refused it.
+ occurred when executing Can't connect to Database.' in D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php:34
+Stack trace:
+#0 D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php(43): DatabaseConnect->connect()
+#1 D:\xampp\htdocs\project\GVC\includes\function\Function.php(121): DatabaseConnect->clearText('upload_max_size')
+#2 D:\xampp\htdocs\project\GVC\includes\_tth_constants.php(4): getConstant('upload_max_size')
+#3 D:\xampp\htdocs\project\GVC\index.php(28): include_once('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php on line 34
+[02-Nov-2017 14:30:27 Europe/Berlin] PHP Fatal error:  Uncaught exception 'DatabaseConnException' with message 'Database Connection Exception: An error No connection could be made because the target machine actively refused it.
+ occurred when executing Can't connect to Database.' in D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php:34
+Stack trace:
+#0 D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php(43): DatabaseConnect->connect()
+#1 D:\xampp\htdocs\project\GVC\includes\function\Function.php(121): DatabaseConnect->clearText('upload_max_size')
+#2 D:\xampp\htdocs\project\GVC\includes\_tth_constants.php(4): getConstant('upload_max_size')
+#3 D:\xampp\htdocs\project\GVC\index.php(28): include_once('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\project\GVC\includes\class\DatabaseConnect.class.php on line 34
